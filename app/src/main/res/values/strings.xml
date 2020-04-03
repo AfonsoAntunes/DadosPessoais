@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DadosPessoais</string>
+    <string name="edit_name">Nome</string>
+    <string name="edit_telefone">Telefone</string>
+    <string name="edit_maeil">Email</string>
+    <string name="edit_idade">Idade</string>
+    <string name="edit_peso">Peso</string>
+    <string name="edit_altura">Altura</string>
+</resources>

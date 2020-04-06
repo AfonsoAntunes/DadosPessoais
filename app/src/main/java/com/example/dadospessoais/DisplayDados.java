@@ -26,9 +26,9 @@ public class DisplayDados extends AppCompatActivity {
         TextView textViewEmail = findViewById(R.id.textViewEmail);
         textViewEmail.setText(edit_maeil);
 
-        /* Integer edit_idade = intent.getIntExtra(MainActivity.EXTRA_IDADE, 0);
+        Integer edit_idade = intent.getIntExtra(MainActivity.EXTRA_IDADE, 0);
         TextView textViewIdade = findViewById(R.id.textViewIdade);
-        textViewIdade.setText(edit_idade); */
+        textViewIdade.setText(String.valueOf(edit_idade));
 
         Float edit_peso = intent.getFloatExtra(MainActivity.EXTRA_PESO, 0);
         TextView textViewPeso = findViewById(R.id.textViewPeso);
